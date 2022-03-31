@@ -35,7 +35,7 @@ const App = () => {
 
       window.location.replace(url);
     } else if (isIOS) {
-      window.location.replace("instagram://");
+      window.location.replace("splitwise://");
 
       setTimeout(() => {
         // window.location.replace(
