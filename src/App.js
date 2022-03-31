@@ -48,7 +48,7 @@ const App = () => {
         );
       }, 10000);
     } else {
-      window.location.replace("https://instagram.com");
+      window.location.replace("https://splitwise.com");
     }
   }, []);
 
@@ -62,11 +62,11 @@ const App = () => {
           Open Android app
         </a>
       ) : isIOS ? (
-        <a href="https://apps.apple.com/us/app/instagram/id389801252">
+        <a href="https://apps.apple.com/us/app/splitwise/id458023433">
           Open iOS app
         </a>
       ) : (
-        <a href="https://instagram.com">Open Web app</a>
+        <a href="https://splitwise.com">Open Web app</a>
       )}
     </div>
   );
