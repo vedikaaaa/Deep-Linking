@@ -35,7 +35,7 @@ const App = () => {
 
       window.location.replace(url);
     } else if (isIOS) {
-      window.location.replace("splitwise://");
+      window.location.replace("word://");
 
       setTimeout(() => {
         // window.location.replace(
