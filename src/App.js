@@ -24,7 +24,7 @@ function clickButton  () {
     //   "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
 
     // window.open();
-    // goto("intent://teams.microsoft.com/https://#Intent;package=com.microsoft.teams;scheme=https;end","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
+    goto("intent://office.com/#Intent;scheme=https;package=com.microsoft.office.officehubrow;end","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
   } else if (isIOS) {
     // window.location.replace("instagram://");
 
@@ -33,7 +33,7 @@ function clickButton  () {
     //     "https://apps.apple.com/us/app/instagram/id389801252"
     //   );
     // }, 10000);
-    goto('msteams://','instagram://');
+    goto('instagram://','msteams://');
     
   } else {
     goto("ms-word://","msteams://");
