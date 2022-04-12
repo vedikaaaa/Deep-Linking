@@ -24,7 +24,7 @@ function clickButton  () {
     //   "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
 
     // window.open();
-    goto("intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end","intent://office.com/#Intent;scheme=https;package=com.microsoft.office.officehubrow;end");
+    goto("https://teams.microsoft.com/l/chat/0/0?users=Email","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
   } else if (isIOS) {
     // window.location.replace("instagram://");
 
@@ -37,7 +37,7 @@ function clickButton  () {
     
   } else {
     // goto("msteams://","ms-word://");
-    goto("www.msteams.com","www.ms-word.com");
+    goto("https://teams.microsoft.com/l/chat/0/0?users=Email","ms-word://");
   }
 };
 
