@@ -33,10 +33,11 @@ function clickButton  () {
     //     "https://apps.apple.com/us/app/instagram/id389801252"
     //   );
     // }, 10000);
-    goto('instagram://','msteams://');
+    goto('https://teams.microsoft.com/l/chat/0/0?users=Email','instagram://');
     
   } else {
-    goto("msteams://","ms-word://");
+    // goto("msteams://","ms-word://");
+    goto("www.msteams.com","www.ms-word.com");
   }
 };
 
