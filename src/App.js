@@ -5,12 +5,12 @@ function goto(url, fallback) {
   var script = document.createElement('script'); 
 
   script.onload = function() { 
-      // document.location = url;
-      window.open(url);
+      document.location = url;
+      // window.open(url);
   } 
   script.onerror = function() { 
-      // document.location = fallback;
-      window.open(fallback);
+      document.location = fallback;
+      // window.open(fallback);
   } 
   script.setAttribute('src', url); 
 
@@ -33,7 +33,7 @@ function clickButton  () {
     //     "https://apps.apple.com/us/app/instagram/id389801252"
     //   );
     // }, 10000);
-    goto('instagram://','msteams://');
+    goto('instagram://','instagram://');
     
   } else {
     window.open("https://instagram.com");
