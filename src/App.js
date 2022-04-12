@@ -18,10 +18,11 @@ function goto(url, fallback) {
 
 function clickButton  () {
   if (isAndroid) {
-    const url =
-      "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
+    // const url =
+    //   "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
 
-    window.open(url);
+    // window.open();
+    goto("intent://teams.microsoft.com/https://#Intent;package=com.microsoft.teams;scheme=https;end","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
   } else if (isIOS) {
     // window.location.replace("instagram://");
 
