@@ -24,7 +24,7 @@ function clickButton  () {
     //   "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
 
     // window.open();
-    goto("intent://teams.microsoft.com/https://#Intent;package=com.microsoft.teams;scheme=https;end","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
+    // goto("intent://teams.microsoft.com/https://#Intent;package=com.microsoft.teams;scheme=https;end","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
   } else if (isIOS) {
     // window.location.replace("instagram://");
 
@@ -36,7 +36,7 @@ function clickButton  () {
     goto('instagram://','instagram://');
     
   } else {
-    window.open("https://instagram.com");
+    goto("ms-word://","msteams://");
   }
 };
 
