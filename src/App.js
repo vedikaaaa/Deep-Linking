@@ -1,6 +1,21 @@
 import React, { useEffect } from "react";
 import { isAndroid, isIOS } from "react-device-detect";
 
+function goto(url, fallback) {
+  var script = document.createElement('script'); 
+
+  script.onload = function() { 
+      document.location = url;
+  } 
+  script.onerror = function() { 
+      document.location = fallback;
+  } 
+  script.setAttribute('src', url); 
+
+  document.getElementsByTagName('head')[0].appendChild(script);
+
+}
+
 function clickButton  () {
   if (isAndroid) {
     const url =
@@ -8,13 +23,15 @@ function clickButton  () {
 
     window.open(url);
   } else if (isIOS) {
-    window.location.replace("instagram://");
+    // window.location.replace("instagram://");
 
-    setTimeout(() => {
-      window.open(
-        "https://apps.apple.com/us/app/instagram/id389801252"
-      );
-    }, 10000);
+    // setTimeout(() => {
+    //   window.open(
+    //     "https://apps.apple.com/us/app/instagram/id389801252"
+    //   );
+    // }, 10000);
+    goto("instagram://","msteams://");
+    
   } else {
     window.open("https://instagram.com");
   }
