@@ -33,7 +33,7 @@ function clickButton  () {
     //     "https://apps.apple.com/us/app/instagram/id389801252"
     //   );
     // }, 10000);
-    goto('instagram://','instagram://');
+    goto('msteams://','instagram://');
     
   } else {
     goto("ms-word://","msteams://");
