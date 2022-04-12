@@ -24,7 +24,7 @@ function clickButton  () {
     //   "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
 
     // window.open();
-    goto("intent://office.com/#Intent;scheme=https;package=com.microsoft.office.officehubrow;end","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
+    goto("intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end","intent://office.com/#Intent;scheme=https;package=com.microsoft.office.officehubrow;end");
   } else if (isIOS) {
     // window.location.replace("instagram://");
 
@@ -36,7 +36,7 @@ function clickButton  () {
     goto('instagram://','msteams://');
     
   } else {
-    goto("ms-word://","msteams://");
+    goto("msteams://","ms-word://");
   }
 };
 
