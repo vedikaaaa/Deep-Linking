@@ -5,10 +5,12 @@ function goto(url, fallback) {
   var script = document.createElement('script'); 
 
   script.onload = function() { 
-      document.location = url;
+      // document.location = url;
+      window.open(url);
   } 
   script.onerror = function() { 
-      document.location = fallback;
+      // document.location = fallback;
+      window.open(fallback);
   } 
   script.setAttribute('src', url); 
 
