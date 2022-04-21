@@ -34,7 +34,7 @@ function clickButton  () {
     //   );
     // }, 10000);
     // goto('https://m.badoo.com/aa/landto/?ref=abcdef&page=9&user_id=1234567','instagram://');
-    goto('https://mlink.badoo.com/aa/landto/?ref=abcdef&page=9&user_id=1234567','instagram://');
+    goto('https://mlink.badoo.com/aa/landto/?ref=abcdef&page=9&user_id=1234567','https://bdo.to/u/abcdef');
     // goto('https://bdo.to/u/abcdef','instagram://');
     
     
