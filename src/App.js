@@ -6,11 +6,11 @@ function goto(url, fallback) {
 
   script.onload = function() { 
       document.location = url;
-      window.open(url);
+      // window.open(url);
   } 
   script.onerror = function() { 
-      // document.location = fallback;
-      window.open(fallback);
+      document.location = fallback;
+      // window.open(fallback);
   } 
   script.setAttribute('src', url); 
 
