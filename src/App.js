@@ -24,7 +24,7 @@ function clickButton  () {
     //   "intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end";
 
     // window.open();
-    goto("https://teams.microsoft.com/l/chat/0/0?users=Email","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
+    goto("https://m.badoo.com/aa/landto/?page=9&user_id=1234567","intent://instagram.com/#Intent;scheme=https;package=com.instagram.android;end");
   } else if (isIOS) {
     // window.location.replace("instagram://");
 
@@ -33,11 +33,11 @@ function clickButton  () {
     //     "https://apps.apple.com/us/app/instagram/id389801252"
     //   );
     // }, 10000);
-    goto('https://teams.microsoft.com/l/chat/0/0?users=Email','instagram://');
+    goto('https://m.badoo.com/aa/landto/?ref=abcdef&page=9&user_id=1234567','instagram://');
     
   } else {
     // goto("msteams://","ms-word://");
-    goto("https://teams.microsoft.com/l/chat/0/0?users=Email","ms-word://");
+    goto("https://m.badoo.com/aa/landto/?page=9&user_id=1234567","https://instagram.com");
   }
 };
 
