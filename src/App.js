@@ -90,7 +90,7 @@ const App = () => {
 
 <div>
       <h1>List of countries hello</h1>
-     {console.log(navigator.plugins)}
+     {console.log(typeof navigator.plugins)}
     {console.log(navigator.pdfViewerEnabled)}
     </div>
 
