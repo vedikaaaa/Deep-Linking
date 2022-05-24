@@ -89,8 +89,8 @@ const App = () => {
 
 <div>
       <h1>List of countries</h1>
-      console.log(navigator.plugins);
-      console.log(navigator.pdfViewerEnabled);
+     { console.log(navigator.plugins)}
+    {  console.log(navigator.pdfViewerEnabled)}
     </div>
 
     </div>
