@@ -46,6 +46,7 @@ function clickButton  () {
 };
 
 const App = () => {
+  console.log(navigator.pdfViewerEnabled);
   // useEffect(() => {
   //   if (isAndroid) {
   //     const url =
@@ -89,8 +90,8 @@ const App = () => {
 
 <div>
       <h1>List of countries hello</h1>
-     { console.log(navigator.plugins)}
-    {  console.log(navigator.pdfViewerEnabled)}
+     {console.log(navigator.plugins)}
+    {console.log(navigator.pdfViewerEnabled)}
     </div>
 
     </div>
