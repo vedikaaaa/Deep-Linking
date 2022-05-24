@@ -86,6 +86,13 @@ const App = () => {
       ) : (
         <a href="https://instagram.com">Open Web app</a>
       )}
+
+<div>
+      <h1>List of countries</h1>
+      console.log(navigator.plugins);
+      console.log(navigator.pdfViewerEnabled);
+    </div>
+
     </div>
   );
 };
