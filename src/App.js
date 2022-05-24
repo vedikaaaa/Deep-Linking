@@ -90,7 +90,14 @@ const App = () => {
 
 <div>
       <h1>List of countries hello</h1>
-     {console.log(typeof navigator.plugins)}
+      <p id="demo">hey</p>
+
+<script>
+document.getElementById("demo").innerHTML = navigator.pdfViewerEnabled;
+</script>
+      {navigator.plugins}
+      {navigator.pdfViewerEnabled}
+     {console.log(navigator.plugins)}
     {console.log(navigator.pdfViewerEnabled)}
     </div>
 
