@@ -47,6 +47,11 @@ function clickButton  () {
 
 const App = () => {
   console.log(navigator.pdfViewerEnabled);
+  var tryy = Boolean(navigator.pdfViewerEnabled);
+  console.log("---");
+  console.log(tryy);
+  console.log("---");
+  
   // useEffect(() => {
   //   if (isAndroid) {
   //     const url =
@@ -90,11 +95,8 @@ const App = () => {
 
 <div>
       <h1>List of countries hello</h1>
-      <p id="demo">hey</p>
-
-<script>
-document.getElementById("demo").innerHTML = navigator.pdfViewerEnabled;
-</script>
+      
+Boolean(navigator.pdfViewerEnabled)
       {navigator.plugins}
       {navigator.pdfViewerEnabled}
      {console.log(navigator.plugins)}
